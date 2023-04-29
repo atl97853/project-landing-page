@@ -18,16 +18,31 @@ ul {
     padding: 0;
 }
 
-.body-container {
-
+.first-body-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.footer-container {
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second-body-container {
+    display: flex;
+    flex-direction: row;
 
 }
 
 /* temporary changes */
+
+.first-body-container > .body-img {
+    width: 350px;
+    height: 300px;
+}
 img {
-    width: 500px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
