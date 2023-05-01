@@ -1,7 +1,8 @@
 /* GENERAL STYLES  */
 
 /* images  */
-.first-body-container > .body-img{
+.right-container > .body-img{
+    max-width:100%;
     width: 300px;
     height: 200px;
 }
@@ -24,11 +25,11 @@
     color: #f9faf8;
     font-size: 24px;
     font-weight: 700;
-
 }
 
 .header-container > ul {
     font-size: 18px;
+    list-style-type: none;
 }
 
 /* first body container  */
@@ -44,6 +45,8 @@
     color: #f9faf8;
     font-weight: 700;
     border-radius: 6px;
+
+    width: 100px;
 }
 
 
@@ -91,8 +94,64 @@
     border-radius: 6px;
 }
 
+/* arrange containers using flexbox  */
 
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 
+    padding: 0 25% 0;
+    margin: 0;
+}
+
+/* .header-container, 
+.first-body-container, 
+.second-body-container, 
+.footer-container {
+} */
+
+/* header container */
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-container > ul{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+} 
+
+/* first body container  */
+.first-body-container {
+    display: flex;
+    align-items: center;
+}
+
+.left-container, .right-container {
+    flex-shrink: 1;
+    width: 50%;
+    margin: 50px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* body {
