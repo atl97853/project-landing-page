@@ -1,14 +1,75 @@
-body {
+/* GENERAL STYLES  */
+
+/* images  */
+
+.first-body-container > .body-img{
+    width: 300px;
+    height: 200px;
+}
+
+.second-body-container > img {
+    width: 100px;
+    height: 100px;
+}
+
+/* fonts and colors  */
+
+.header-container, 
+.first-body-container,
+.footer-container {
+    background-color: #1F2937;
+    color: #e5e7eb;
+}
+
+.header-container > .main-text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.left-container > .main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+
+
+
+
+/* body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
     display: flex;
     flex-direction: column;
 }
 
+.header-container,
+.first-body-container,
+.second-body-container,
+.third-body-container,
+.fourth-body-container,
+.footer-container {
+    flex: 1;
+    
+}
+
 .header-container {
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+
     display: flex;
     justify-content: space-between;
 }
 
 ul {
+    color: #e5e7eb;
+    font-size: 18px;
+
     display: flex;
     flex-direction: row;
     gap: 20px;
@@ -19,6 +80,10 @@ ul {
 }
 
 .first-body-container {
+    background-color: #1F2937;
+    color: white;
+
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -36,24 +101,29 @@ ul {
 }
 
 .first-body-container > .left-container > p {
+    color: #e5e7eb;
     font-size: 18px;
 }
 
 
 .first-body-container > .body-img {
     display: flex;
-    width: 350px;
-    height: 300px;
+    width: 500px;
+    height: 200px;
 }
 
 .second-body-container {
+    background-color: white;
+
     display: flex;
     flex-direction: row;
 
 }
 
-/* temporary changes */
+.second-body-container > div {}
 
+/* temporary changes */
+/* 
 img {
     width: 200px;
     height: 200px;
@@ -61,7 +131,9 @@ img {
 
 /* temporary changes */
 
-.third-body-container {
+/* .third-body-container {
+    background-color: white;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,6 +141,9 @@ img {
 }
 
 .fourth-body-container {
+    background-color: #3882f6;
+    color: white;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -80,5 +155,7 @@ img {
 }
 
 .footer-container {
+    background-color: #E2E7EB;
+
     text-align: center;
-}
+}  */
