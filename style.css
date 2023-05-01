@@ -1,19 +1,17 @@
 /* GENERAL STYLES  */
 
 /* images  */
-
 .first-body-container > .body-img{
     width: 300px;
     height: 200px;
 }
 
-.second-body-container > img {
+.first-section > img {
     width: 100px;
     height: 100px;
 }
 
 /* fonts and colors  */
-
 .header-container, 
 .first-body-container,
 .footer-container {
@@ -21,6 +19,7 @@
     color: #e5e7eb;
 }
 
+/* header container  */
 .header-container > .main-text {
     color: #f9faf8;
     font-size: 24px;
@@ -28,10 +27,59 @@
 
 }
 
+.header-container > ul {
+    font-size: 18px;
+}
+
+/* first body container  */
 .left-container > .main-text {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+}
+
+/* second body container */
+.second-body-container {
+    background-color: #f9faf8;
+    color: #1F2937;
+}
+
+.first-section > .main-text {
+    /* color: #1F2937; */
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.second-section {
+    background-color: #e5e7eb;
+    /* color: #1F2937; */
+    /* font-size: 36px; */
+    font-weight: 300;
+    font-style: italic;
+}
+
+.second-section > .a-quote {
+    color: #1F2937;
+    font-weight: 800;
+}
+
+.third-section {
+    background-color: #3882f6;
+    color: #f9faf8;
+
+}
+
+.left-container2 > .main-text {
+    font-weight: 800;
+}
+
+.third-section > button {
+    padding: 2px 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    border-color: #f9faf8;
+    border-radius: 6px;
 }
 
 
