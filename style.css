@@ -38,6 +38,15 @@
     font-weight: 800;
 }
 
+.left-container > button {
+    padding: 2px 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    border-radius: 6px;
+}
+
+
 /* second body container */
 .second-body-container {
     background-color: #f9faf8;
