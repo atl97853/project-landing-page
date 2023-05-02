@@ -78,11 +78,14 @@ li > img {
 }
 
 .third-section {
-    background-color: #3882f6;
+    background-color: #f9faf8;
     color: #f9faf8;
 
 }
-
+.third-section > .rounded-corners {
+    background-color: #3882f6;
+    border-radius: 5px;
+}  
 .left-container2 > .main-text {
     font-weight: 800;
 }
@@ -124,6 +127,7 @@ body {
     max-width: 33.3%;
     min-width: 33.3%;
     flex-grow: 1;
+    padding: 24px;
 }
 
 /* header container */
@@ -143,6 +147,7 @@ body {
     gap: 20px;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 } 
 
 /* first body container  */
@@ -188,14 +193,18 @@ body {
 }
 
 .second-section > .quote {
+    text-align: start;
 }
 .second-section > .a-quote {
+    text-align: end;
 }
 
 /* third section */
-.third-section {
+.rounded-corners {
+
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 
 .left-container2 {
